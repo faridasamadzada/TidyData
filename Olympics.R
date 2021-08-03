@@ -26,7 +26,7 @@ ggplot(aes(x = year, y = mean_age, color = sex)) +
 geom_point(size = 2) + geom_line() + 
 theme_minimal() + 
 theme(axis.title.x=element_blank()) +
-ggtitle("Age of Olympians Through The Years", "With some exceptions, mean age of female athletes is consistently lower than that of male athletes") + 
+ggtitle("Average Age of Olympic Athletes Through The Years", "With some exceptions, mean age of female athletes is consistently lower than that of male athletes") + 
 theme(plot.subtitle=element_text(size=7.5, face = "bold")) + 
 labs(caption = "Data Source: Kaggle/TidyTuesday") + 
 ylab("Mean Age") + 
